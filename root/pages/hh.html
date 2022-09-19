@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu export</title>
+<style>
+.a4 {
+    border: 1px;
+    background-color: rgb(235, 195, 195);
+    height: 29.7cm;
+    width: 21cm;
+}
+.day {
+	color:#244d58;
+	font-family:"Quicksand (TT) Bold", sans-serif;
+	font-size:25px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:3px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:20px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+.plat {
+	color:#b0755c;
+	font-family:"Playfair Display Black", serif;
+	font-size:23px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:900;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:2px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+.date {
+	color:#244d58;
+	font-family:"Quicksand (OTF) Bold", sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:0.55;
+    /* margin: 10px; */
+    padding: auto;
+	/* margin-bottom:10px; */
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+.undertitle {
+	color:#244d58;
+	font-family:"Quicksand (TT) Book", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.7;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+.main_div {
+                text-align:center;
+                position: relative;
+
+                background-color: white;
+            }
+            .sub_div {
+                position: absolute;
+                bottom: 0px;
+            }
+</style>
+
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Quicksand:wght@700&display=swap"
+	rel="stylesheet">
+
+<link rel="stylesheet" href="/web/lem_menu/root/css/menu_style.css" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main_div"id="divToExport">
+            <br>
+            <br>
+            
+            <h3 class="date">date</h3>
+            
+            <img src="/../web/lem_menu/root/images/internat-title.png" width="793" alt="Melusina">
+            <br>
+            
+            <h4 class="day">Lundi</h4>
+            <h2 class="plat">potage</h2>
+            <h5 class="undertitle">undertitle aaaa</h5>
+            
+			<h2 class="plat">Plat</h2>
+            <h5 class="undertitle">undertitle</h5>
+            
+			<h4 class="day">Mardi</h4>
+            <h2 class="plat">potage</h2>
+            <h5 class="undertitle">undertitle aaaa</h5>
+            
+			<h2 class="plat">Plat</h2>
+            <h5 class="undertitle">undertitle</h5>
+            
+			<h4 class="day">Mercredi</h4>
+            <h2 class="plat">potage</h2>
+            <h5 class="undertitle">undertitle aaaa</h5>
+            
+			<h2 class="plat">Plat</h2>
+            <h5 class="undertitle">undertitle</h5>
+            
+			<h4 class="day">Jeudi</h4>
+            <h2 class="plat">potage</h2>
+            <h5 class="undertitle">undertitle aaaa</h5>
+            
+			<h2 class="plat">Plat</h2>
+            <h5 class="undertitle">undertitle</h5>
+
+			
+            <div class="sub_div">
+            <img style="vertical-align: bottom" src="/../web/lem_menu/root/images/internat-subtitle.png" width="793" alt="Melusina">            
+        </div>
+    </div>
+</div>
+
+<button type="button" onclick="generatePDF()">Export to PDF</button>
+        
+        <script type="text/javascript">
+  function generatePDF() {
+        
+        // Choose the element id which you want to export.
+        var element = document.getElementById('divToExport');
+        // element.style.width = '2480px';
+        // element.style.height = '3508px';
+        var opt = {
+            // margin:       0.5,
+            filename:     'myfile.pdf',
+            image:        { type: 'pdf', quality: 100 },
+            html2canvas:  { scale: 2 },
+            jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait', precision: '120' }
+          };
+        
+        // choose the element and pass it to html2pdf() function and call the save() on it to save as pdf.
+        html2pdf().set(opt).from(element).save();
+      }
+</script>
+</body>
+</html>

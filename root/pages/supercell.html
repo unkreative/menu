@@ -1,0 +1,4135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Summary of Your Data - Supercell</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.supercell.com/brand/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://cdn.supercell.com/brand/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://cdn.supercell.com/brand/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://cdn.supercell.com/brand/favicon/manifest.json">
+    <link rel="mask-icon" href="https://cdn.supercell.com/brand/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <style>
+        @font-face {
+            font-family: 'SupercellHeadline-Heavy';
+            src: url('https://cdn.supercell.com/fonts/supercell/supercellheadline/supercellheadline-heavy.eot');
+            src: url('https://cdn.supercell.com/fonts/supercell/supercellheadline/supercellheadline-heavy.eot?#iefix') format('embedded-opentype'),url('https://cdn.supercell.com/fonts/supercell/supercellheadline/supercellheadline-heavy.woff2') format('woff2'),url('https://cdn.supercell.com/fonts/supercell/supercellheadline/supercellheadline-heavy.woff') format('woff');
+        }
+        @font-face {
+            font-family: 'SupercellText-Regular';
+            src: url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_rg.eot');
+            src: url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_rg.eot?#iefix') format('embedded-opentype'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_rg.woff2') format('woff2'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_rg.woff') format('woff'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_rg.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'SupercellText-Medium';
+            src: url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_md.eot');
+            src: url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_md.eot?#iefix') format('embedded-opentype'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_md.woff2') format('woff2'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_md.woff') format('woff'),url('https://cdn.supercell.com/fonts/supercell/supercelltext/full/supercelltext_w_md.ttf') format('truetype');
+        }
+        body {
+            margin: 0;
+        }
+        .content {
+            margin: 3em;
+            font-family: 'SupercellText-Regular',sans-serif;
+            font-size: 16px;
+            padding-bottom: 3em;
+        }
+        .content b {
+            font-family: 'SupercellText-Medium',sans-serif;
+        }
+        .content .header {
+            font-family: 'SupercellHeadline-Heavy',sans-serif;
+            font-size: 45px;
+            font-weight: normal;
+            line-height: 1.25;
+            letter-spacing: -0.025em;
+            color: #000000;
+        }
+        .content h2 {
+            font-family: 'SupercellHeadline-Heavy',sans-serif;
+        }
+        .content h3 {
+            font-family: 'SupercellText-Medium',sans-serif;
+        }
+        .content p {
+            line-height: 1.5;
+            margin: 6px 0 6px 0;
+        }
+        table { 
+            border-collapse:collapse;
+            width: 100%;
+            -webkit-text-size-adjust:none;
+        }
+        table thead th { 
+            font-family: 'SupercellText-Medium',sans-serif;
+            border-bottom: 1px solid #000; 
+            text-align: left;
+            padding: 6px 16px 10px 0;
+        }
+        table tbody td {
+            padding: 6px 16px 0 0;
+        }
+        table tbody tr.border-bottom { 
+            border-bottom: 1px solid #000; 
+        }
+        table tbody tr.border-bottom td { 
+            padding: 6px 16px 10px 0;
+        }
+        footer.main {
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+            background: #000;
+            margin-top: -1px !important;
+        }
+        footer.main .footer-end.solo {
+            margin-top: 2em;
+        }
+        footer.main .footer-end {
+            width: 100%;
+            margin: 0 auto 2em auto;
+            overflow: hidden;
+            position: relative;
+        }
+        footer.main .footer-end .mail {
+            color: #666;
+            font-family: 'SupercellText-Regular',sans-serif;
+            font-size: 14px;
+            margin: 0 3em 0 3em;
+        }
+        footer.main .footer-end .mail address {
+            font-style: normal;
+            margin: 0;
+            padding: 0;
+        }
+        address {
+            font-style: normal;
+        }
+        footer.main .footer-end .mail span {
+            display: block;
+        }
+        footer.main .footer-end .logo {
+            width: 25%;
+            position: absolute;
+            top: 0;
+            right: 3em;
+            height: 100%;
+        }
+        footer.main .footer-end .logo a {
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 54px;
+            height: 46px;
+            text-indent: -9999px;
+            outline: none;
+            background: url('/logo_supercell.png') no-repeat;
+            background-size: 54px 44px;
+        }
+
+        a, a:link, a:visited, a:active {
+            text-decoration: none;
+        }
+        a {
+            text-decoration: none;
+            color: #2d85f3;
+        }
+        a {
+            outline: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .content {
+                margin: 1em;
+            }
+            footer.main .footer-end .mail {
+                margin: 0 1em 0 1em;
+            }
+            footer.main .footer-end .logo {
+                right: 1em;
+            }
+        }
+        @media print {
+            .content {
+                margin: 1em;
+            }
+            footer.main {
+                border-top: #000 solid 1px;
+                background: #fff;
+                margin: 0 1em 0 1em;
+            }
+            footer.main .footer-end .mail {
+                margin: 0
+            }
+            footer.main .footer-end .logo {
+                right: 1em;
+            }
+            footer.main .footer-end .logo a {
+                content:url('/supercell_logo_black_on_white.jpg');
+            }
+        }   
+    </style>
+  </head>
+  <body>
+    <div class="content">
+
+        <h1 class="header">Summary of Your Data</h1>
+
+        <p>This is a summary of the personal data we hold about you in relation to our games. For more information on how we process your personal data, including the rights you have over your personal data, please refer to our Privacy Policy available at <a href="https://supercell.com/en/privacy-policy/" target="_blank">https://supercell.com/en/privacy-policy/</a>.</p>
+        <p>If you have any further questions, please contact us.</p>
+        <p>This report has been created on July 02, 2022.<br/>
+
+        
+        <h2>Supercell ID</h2>
+        <p>Your name is <b>chaos</b>.</p>
+        
+        <p>Your friends are <b>Sueta_krd</b>, <b>noob</b>, <b>kay2077</b>, <b>Hallo</b>, <b>Chris</b>, <b>Geilo606</b>, <b>lara</b>, <b>Jimix111</b>, <b>lxpeace</b>, <b>Леон</b>, <b>Kelsey Farm</b>, <b>Meng-27-Kanner</b>, <b>chaoss</b>, <b>Jean</b>, <b>Nadia</b>, <b>Tetoch</b>, <b>Neys_LP</b>, <b>Totolala1951</b>, <b>Artem</b>, <b>pew pew</b>, <b>Ebony</b>, <b>mortimer</b>, <b>Botzfra Beatriz</b>, <b>Königfarm</b>, <b>ToxicGamer007</b>, <b>K4IZEN</b>, <b>Hihi</b>, <b>Vershamps</b> and <b>Re Farmer UK</b>.</p>
+        
+        
+        <p>Your connected games are <b>Boom Beach</b>, <b>Brawl Stars</b>, <b>Clash of Clans</b>, <b>Clash Royale</b> and <b>Hay Day</b>.</p>
+        <br/>
+        
+
+        
+        
+<h2>Boom Beach</h2>
+
+
+<p>Your name is <b>chaosloulou</b>.</p>
+<p>Your base was created on <b>2020-04-03 17:19:55</b> in <b>Luxembourg</b> (146.0.142.33).</p>
+<p>Your account is <b>not banned</b> and <b>not locked</b>.</p>
+
+<p>You last logged in on <b>2022-07-01 13:14:30</b> from <b>Luxembourg</b> (158.64.86.51).</p>
+
+<p>You have played <b>137</b> sessions in total.</p>
+
+
+<p>You are a member of a task force called <b>LUX</b>. Your rank is "member".</p>
+
+
+
+
+
+<h3>Resources and progress</h3>
+<p>You have <b>155</b> diamonds.</p>
+<p>You have <b>47</b> victory points and <b>189</b> experience points. Your experience level is <b>17</b>.</p>
+<p>Your HQ is level <b>7</b> and your rank is <b>Corporal 1</b>.</p>
+<p>Resources: <b>678</b> gold, <b>66259</b> wood, <b>2320</b> stones, <b>0</b> iron, <b>1</b> power powder, <b>30</b> trader tickets, <b>6</b> hero tokens and <b>0</b> raw crystals.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Sessions</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Session start</th>
+            <th>Duration</th>
+            <th>IP</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:14:30</td>
+            <td>1 min 29 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:10:43</td>
+            <td>3 min 25 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:09:28</td>
+            <td>52 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:07:27</td>
+            <td>1 min 2 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 09:22:34</td>
+            <td>1 min 59 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 06:46:49</td>
+            <td>1 min 49 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 13:58:43</td>
+            <td>1 min 1 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 12:13:13</td>
+            <td>2 min 36 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 08:51:39</td>
+            <td>33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 08:34:09</td>
+            <td>1 min 37 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 07:10:06</td>
+            <td>5 min 2 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 06:11:26</td>
+            <td>1 min 18 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 19:31:09</td>
+            <td>2 min 20 s</td>
+            <td>178.254.100.10</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 12:20:30</td>
+            <td>59 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 06:07:14</td>
+            <td>1 min 23 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 22:40:37</td>
+            <td>1 min 44 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 16:29:27</td>
+            <td>1 min 33 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 07:13:27</td>
+            <td>1 min 29 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 04:13:06</td>
+            <td>1 min 13 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 19:25:39</td>
+            <td>2 min 7 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 18:47:20</td>
+            <td>4 min 41 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 16:09:42</td>
+            <td>1 min 7 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 14:56:58</td>
+            <td>1 min 16 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 14:13:59</td>
+            <td>2 min 10 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 10:11:52</td>
+            <td>1 min 41 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 08:12:15</td>
+            <td>47 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 06:11:41</td>
+            <td>35 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 21:32:30</td>
+            <td>1 min 18 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 19:07:24</td>
+            <td>1 min 27 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 12:46:32</td>
+            <td>13 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 09:54:17</td>
+            <td>1 min 8 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 09:06:06</td>
+            <td>4 min 27 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 08:53:36</td>
+            <td>1 min 56 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 08:12:45</td>
+            <td>3 min 38 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 07:30:09</td>
+            <td>1 min 31 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-23 09:24:47</td>
+            <td>1 min 29 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 20:01:47</td>
+            <td>1 min 19 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 14:13:18</td>
+            <td>53 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 13:14:32</td>
+            <td>1 min 43 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 11:18:49</td>
+            <td>1 min 33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 06:36:04</td>
+            <td>1 min 15 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 21:54:22</td>
+            <td>1 min 13 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 20:00:50</td>
+            <td>1 min 7 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 19:43:47</td>
+            <td>42 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 18:14:27</td>
+            <td>1 min 13 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 17:14:11</td>
+            <td>1 min 53 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 07:04:43</td>
+            <td>7 min 34 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 06:19:55</td>
+            <td>42 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 06:18:50</td>
+            <td>21 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 16:50:34</td>
+            <td>6 min 38 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<h3>Battles</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Duration</th>
+            <th>Attackee</th>
+            <th>Attack Type</th>
+            <th>Result</th>
+            <th>Intel gained</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:14:02</td>
+            <td>2 min 41 s</td>
+            <td>Not Found (6-38730487)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 07:13:44</td>
+            <td>42 s</td>
+            <td>Burst Damage</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 07:12:04</td>
+            <td>49 s</td>
+            <td>Weather Front</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 18:49:37</td>
+            <td>1 min 6 s</td>
+            <td>Resource base</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 09:09:10</td>
+            <td>46 s</td>
+            <td>Beach Storm</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 09:07:42</td>
+            <td>1 min 1 s</td>
+            <td>Mega Crab stage 2</td>
+            <td>NPC Attack</td>
+            <td>Defeat</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 08:15:03</td>
+            <td>29 s</td>
+            <td>Not Found (6-38738909)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 08:14:00</td>
+            <td>37 s</td>
+            <td>Mega Crab stage 2</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 16:54:58</td>
+            <td>1 min 0 s</td>
+            <td>Immobilize</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 16:52:57</td>
+            <td>20 s</td>
+            <td>Not Found (6-38738909)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 06:27:24</td>
+            <td>24 s</td>
+            <td>Splatter</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 08:23:33</td>
+            <td>34 s</td>
+            <td>Strafer</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 14:16:21</td>
+            <td>41 s</td>
+            <td>Punch Out</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 14:14:45</td>
+            <td>41 s</td>
+            <td>Inferno</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 14:13:25</td>
+            <td>29 s</td>
+            <td>Dangerous Cover</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 14:11:51</td>
+            <td>39 s</td>
+            <td>Erosion</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 12:56:51</td>
+            <td>23 s</td>
+            <td>Not Found (6-38738909)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 08:22:53</td>
+            <td>2 min 35 s</td>
+            <td>Not Found (6-38730487)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 06:25:57</td>
+            <td>25 s</td>
+            <td>Not Found (6-38738909)</td>
+            <td>Player Outpost Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-11 10:58:44</td>
+            <td>39 s</td>
+            <td>kiarash</td>
+            <td>Player Base Attack</td>
+            <td>Defeat</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-11 10:57:36</td>
+            <td>39 s</td>
+            <td>Metastasis</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-10 13:56:48</td>
+            <td>30 s</td>
+            <td>Sicilian Defense</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-02 09:40:45</td>
+            <td>40 s</td>
+            <td>Different Approach</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-01 06:48:19</td>
+            <td>29 s</td>
+            <td>Formation</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 08:32:16</td>
+            <td>47 s</td>
+            <td>Falling Pieces</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 08:31:00</td>
+            <td>44 s</td>
+            <td>I Cannon</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 08:29:16</td>
+            <td>43 s</td>
+            <td>Tora Bora</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 08:28:08</td>
+            <td>31 s</td>
+            <td>Mortar Support</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 08:20:04</td>
+            <td>43 s</td>
+            <td>Queen&#39;s Gambit</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>1</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 07:57:40</td>
+            <td>54 s</td>
+            <td>Double Slugger II</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-03-31 07:55:44</td>
+            <td>1 min 1 s</td>
+            <td>Resource base</td>
+            <td>NPC Attack</td>
+            <td>Victory</td>
+            <td>0</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<h3>Handsets and devices</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Last seen (UTC time)</th>
+            <th>Device Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:14:30</td>
+            <td>746B2674-7E32-4A67-865F-45A9F959BE78</td>
+            <td>iPad air 4th Gen (WiFi)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2020-05-30 17:34:11</td>
+            <td>147B442B-1385-4193-8962-813971DBE448</td>
+            <td>iPhone 6s</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<br/>
+
+        
+        
+<h2>Brawl Stars</h2>
+
+
+<p>Your name is <b>Chaosloulou</b>.</p>
+<p>Your account was created on <b>2019-04-06 16:27:55</b> in <b>Luxembourg</b> (88.207.227.15).</p>
+<p>Your account is <b>not banned</b> and <b>not locked</b>.</p>
+
+<p>You last logged in on <b>2022-06-05 16:41:42</b> from <b>Luxembourg</b> (146.0.216.20).</p>
+
+<p>You have played <b>212</b> sessions in total.</p>
+
+
+<p>You are a member of a club called <b>Shootybois only</b>. Your rank is "member".</p>
+
+
+
+
+
+
+
+<h3>Resources and progress</h3>
+<p>You have <b>15</b> gems.</p>
+<p>You have <b>1945</b> trophies and <b>6102</b> experience points. Your experience level is <b>32</b>.</p>
+<p>Resources: <b>123</b> coins and <b>600</b> star points.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Sessions</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Session start</th>
+            <th>Duration</th>
+            <th>IP</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:41:42</td>
+            <td>36 min 55 s</td>
+            <td>146.0.216.20</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-04 22:12:19</td>
+            <td>5 min 20 s</td>
+            <td>146.0.216.175</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+<h3>Battles</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Duration</th>
+            <th>Mode</th>
+            <th>Map</th>
+            <th>Brawler</th>
+            <th>Tokens gained</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:15:30</td>
+            <td>1 min 46 s</td>
+            <td>Hot Zone</td>
+            <td>Temple of Boom</td>
+            <td>Rosa</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:13:11</td>
+            <td>1 min 20 s</td>
+            <td>Duo Showdown</td>
+            <td>Scorched Stone</td>
+            <td>Penny</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:12:42</td>
+            <td>1 min 40 s</td>
+            <td>Duo Showdown</td>
+            <td>Scorched Stone</td>
+            <td>Penny</td>
+            <td>0</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:10:09</td>
+            <td>1 min 40 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Barley</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:06:00</td>
+            <td>1 min 56 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Piper</td>
+            <td>10</td>
+            <td>Defeat</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:03:27</td>
+            <td>1 min 45 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Piper</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 17:00:46</td>
+            <td>3 min 0 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>El Primo</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:57:24</td>
+            <td>1 min 59 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>El Primo</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:54:41</td>
+            <td>2 min 2 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Gene</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:51:23</td>
+            <td>1 min 40 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Darryl</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:49:11</td>
+            <td>1 min 51 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Rosa</td>
+            <td>20</td>
+            <td>Victory</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:46:39</td>
+            <td>2 min 21 s</td>
+            <td>Gem Grab</td>
+            <td>Opposing Forts</td>
+            <td>Penny</td>
+            <td>10</td>
+            <td>Defeat</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-04 22:17:06</td>
+            <td>2 min 42 s</td>
+            <td>Brawl Ball</td>
+            <td>Post Haste</td>
+            <td>Colt</td>
+            <td>30</td>
+            <td>Victory</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+<h3>Handsets and devices</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Last seen (UTC time)</th>
+            <th>Device Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:41:42</td>
+            <td>5EE8A61A-2C56-42FC-9885-34CF94B51E59</td>
+            <td>iPhone 12</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>1BBA1075-5BBD-403C-BEDA-CA255FFACFE2</td>
+            <td>iPhone 5s (Global)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>D8777675-5573-4CCD-A511-DBF978501CB3</td>
+            <td>iPad Air 2 (WiFi)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>8913D52A-DB0C-4103-B4CB-B4738B2B138D</td>
+            <td>Unknown</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>960B78CB-33E2-45B0-AC00-9CB048332D43</td>
+            <td>Unknown</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<br/>
+
+        
+        
+<h2>Clash of Clans</h2>
+
+
+<p>Your name is <b>chaos</b>.</p>
+<p>Your village was created on <b>2019-08-18 16:07:41</b> in <b>Luxembourg</b> (88.207.190.180).</p>
+<p>Your account is <b>not banned</b> and <b>not locked</b>.</p>
+
+<p>You last logged in on <b>2022-07-01 13:42:33</b> from <b>Luxembourg</b> (158.64.86.51).</p>
+
+<p>You have played <b>1721</b> sessions in total.</p>
+
+
+<p>You are a member of a clan called <b>Konoha</b>. Your rank is "elder".</p>
+
+
+
+
+
+
+
+
+
+<h3>Resources and progress</h3>
+<p>You have <b>982</b> gems.</p>
+<p>You have <b>2099</b> trophies and <b>1380</b> experience points. Your experience level is <b>106</b>.</p>
+<p>Your townhall is level <b>10</b>.</p>
+<p>Main base resources: <b>6918366</b> gold, <b>23725154</b> elixir, and <b>177560</b> dark elixir.</p>
+
+<p>Your builder base townhall is level <b>7</b> and has score <b>2573</b>.</p>
+
+<p>Builder base resources: <b>1107604</b> gold and <b>1084978</b> elixir.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Sessions</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Session start</th>
+            <th>Duration</th>
+            <th>IP</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:42:33</td>
+            <td>16 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 09:19:48</td>
+            <td>2 min 4 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 09:14:10</td>
+            <td>5 min 0 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:21:46</td>
+            <td>11 min 12 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:15:00</td>
+            <td>5 min 44 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:10:21</td>
+            <td>46 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 05:19:53</td>
+            <td>13 s</td>
+            <td>146.0.216.248</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 05:17:49</td>
+            <td>1 min 20 s</td>
+            <td>146.0.216.248</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 13:54:29</td>
+            <td>15 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 12:41:44</td>
+            <td>34 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 12:17:00</td>
+            <td>41 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 08:33:41</td>
+            <td>1 min 26 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 08:29:46</td>
+            <td>2 min 11 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 08:08:33</td>
+            <td>9 min 7 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 06:08:16</td>
+            <td>26 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 21:30:50</td>
+            <td>2 min 32 s</td>
+            <td>178.254.100.10</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 20:57:10</td>
+            <td>3 min 50 s</td>
+            <td>178.254.100.10</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 19:49:55</td>
+            <td>17 min 28 s</td>
+            <td>178.254.100.10</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 19:32:32</td>
+            <td>10 min 41 s</td>
+            <td>178.254.100.10</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 12:15:22</td>
+            <td>4 min 11 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 12:12:17</td>
+            <td>2 min 4 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 08:47:16</td>
+            <td>7 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 06:10:19</td>
+            <td>8 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 06:06:23</td>
+            <td>1 min 47 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 22:41:43</td>
+            <td>1 min 56 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 21:19:35</td>
+            <td>30 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 16:47:06</td>
+            <td>56 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 07:21:32</td>
+            <td>1 min 28 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 07:18:03</td>
+            <td>1 min 43 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 21:31:10</td>
+            <td>6 min 37 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 21:27:02</td>
+            <td>4 min 6 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 19:51:13</td>
+            <td>1 min 18 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 14:33:19</td>
+            <td>18 min 21 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 07:38:11</td>
+            <td>2 min 3 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 07:38:05</td>
+            <td>4 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 06:14:13</td>
+            <td>52 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 21:34:59</td>
+            <td>5 min 24 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 19:07:59</td>
+            <td>9 min 19 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 16:11:10</td>
+            <td>7 s</td>
+            <td>146.0.216.16</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 16:06:22</td>
+            <td>4 min 39 s</td>
+            <td>146.0.216.16</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 00:52:43</td>
+            <td>53 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 00:52:36</td>
+            <td>5 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 00:24:29</td>
+            <td>1 min 2 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 21:46:15</td>
+            <td>5 min 31 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 20:58:32</td>
+            <td>4 min 9 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 19:22:59</td>
+            <td>1 min 4 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 08:07:53</td>
+            <td>28 min 1 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 08:06:44</td>
+            <td>46 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 08:04:03</td>
+            <td>1 min 3 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 07:56:00</td>
+            <td>9 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+<h3>Attacks</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Duration</th>
+            <th>Defender</th>
+            <th>Destruction</th>
+            <th>Stars</th>
+            <th>Trophies</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>2022-06-30 08:15:52</td>
+            <td>1 min 59 s</td>
+            <td>Lilwarriory</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>&#43;13</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Healer, 1 × Archer Queen, 5 × Wizard, 1 × Golem, 9 × Valkyrie, 2 × P.E.K.K.A, 1 × Barbarian King, 2 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 356376 Gold, 323669 Elixir, 2007 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-29 19:56:50</td>
+            <td>1 min 41 s</td>
+            <td>MATHEUSPLAYER</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>&#43;20</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Lava Hound, 6 × Balloon, 6 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 564814 Gold, 564621 Elixir, 1472 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-29 19:53:47</td>
+            <td>2 min 5 s</td>
+            <td>waffel</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>&#43;23</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Lava Hound, 7 × Dragon, 8 × Balloon, 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 555748 Gold, 561410 Elixir, 4651 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 21:30:17</td>
+            <td>2 min 0 s</td>
+            <td>(•_•)</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>&#43;23</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Lava Hound, 8 × Balloon, 7 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 261283 Gold, 188538 Elixir, 1722 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 14:49:43</td>
+            <td>2 min 59 s</td>
+            <td>Raven</td>
+            <td>67 %</td>
+            <td>2</td>
+            <td>&#43;5</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 3 × Healer, 5 × Valkyrie, 2 × Wizard, 1 × Golem, 1 × Hog Rider, 5 × Bowler, 1 × P.E.K.K.A, 3 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 569725 Gold, 663518 Elixir, 5969 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 14:40:31</td>
+            <td>2 min 51 s</td>
+            <td>kg</td>
+            <td>65 %</td>
+            <td>1</td>
+            <td>&#43;10</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 3 × Healer, 5 × Valkyrie, 2 × Wizard, 1 × Hog Rider, 5 × Bowler, 1 × Golem, 1 × P.E.K.K.A, 3 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 201294 Gold, 304002 Elixir, 1880 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 21:39:39</td>
+            <td>2 min 14 s</td>
+            <td>SoJiRo</td>
+            <td>77 %</td>
+            <td>2</td>
+            <td>&#43;6</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 9 × Valkyrie, 1 × Golem, 2 × P.E.K.K.A, 5 × Wizard, 2 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 340540 Gold, 370089 Elixir, 5774 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 19:13:29</td>
+            <td>2 min 59 s</td>
+            <td>TipleTHAD</td>
+            <td>73 %</td>
+            <td>2</td>
+            <td>&#43;16</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 1 × Golem, 9 × Valkyrie, 5 × Wizard, 2 × P.E.K.K.A, 2 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 994156 Gold, 1016547 Elixir, 5501 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 16:09:53</td>
+            <td>2 min 3 s</td>
+            <td>_IshakRahman</td>
+            <td>56 %</td>
+            <td>1</td>
+            <td>&#43;7</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 5 × Wizard, 1 × Golem, 2 × Dragon, 9 × Valkyrie, 2 × P.E.K.K.A</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 86402 Gold, 86402 Elixir, 400 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 21:50:16</td>
+            <td>2 min 23 s</td>
+            <td>myo</td>
+            <td>57 %</td>
+            <td>1</td>
+            <td>&#43;10</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 1 × Golem, 9 × Valkyrie, 2 × Dragon, 2 × P.E.K.K.A, 5 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 290214 Gold, 432705 Elixir, 8400 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 08:24:49</td>
+            <td>1 min 47 s</td>
+            <td>afn98</td>
+            <td>86 %</td>
+            <td>2</td>
+            <td>&#43;15</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Goblin, 11 × Bowler, 3 × Dragon, 2 × Hog Rider, 1 × Archer Queen, 2 × Healer, 3 × P.E.K.K.A</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 546681 Gold, 165262 Elixir, 3067 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 08:17:31</td>
+            <td>2 min 59 s</td>
+            <td>bigbisse</td>
+            <td>91 %</td>
+            <td>2</td>
+            <td>&#43;12</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 9 × Valkyrie, 1 × Golem, 2 × P.E.K.K.A, 5 × Wizard, 2 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 700133 Gold, 782139 Elixir, 7822 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 18:16:16</td>
+            <td>2 min 59 s</td>
+            <td>ragul</td>
+            <td>90 %</td>
+            <td>2</td>
+            <td>&#43;22</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 1 × Golem, 9 × Valkyrie, 2 × P.E.K.K.A, 2 × Dragon, 5 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 694145 Gold, 506300 Elixir, 3057 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 17:58:06</td>
+            <td>2 min 11 s</td>
+            <td>TT.NERF</td>
+            <td>72 %</td>
+            <td>2</td>
+            <td>&#43;11</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 2 × Healer, 1 × Golem, 9 × Valkyrie, 2 × Dragon, 2 × P.E.K.K.A, 5 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 298856 Gold, 277861 Elixir, 4083 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-22 21:06:40</td>
+            <td>2 min 58 s</td>
+            <td>gurnoor singh</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>&#43;18</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Golem, 9 × Valkyrie, 1 × Archer Queen, 2 × Healer, 1 × Barbarian King, 2 × P.E.K.K.A, 2 × Dragon, 5 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 227630 Gold, 425534 Elixir, 3873 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-20 17:25:03</td>
+            <td>2 min 51 s</td>
+            <td>loulou</td>
+            <td>78 %</td>
+            <td>2</td>
+            <td>&#43;7</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Golem, 9 × Valkyrie, 1 × Archer Queen, 2 × Healer, 2 × P.E.K.K.A, 2 × Dragon, 5 × Wizard, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 643826 Gold, 431116 Elixir, 4086 Dark Elixir</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+<h3>Defences</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Duration</th>
+            <th>Attacker</th>
+            <th>Destruction</th>
+            <th>Stars</th>
+            <th>Trophies</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>2022-07-02 02:47:43</td>
+            <td>2 min 3 s</td>
+            <td>Köne</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-23</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 11 × Dragon, 4 × Balloon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 623608 Gold, 724900 Elixir, 6519 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-07-01 09:10:20</td>
+            <td>2 min 59 s</td>
+            <td>SHUHRAT 2</td>
+            <td>75 %</td>
+            <td>2</td>
+            <td>-15</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 13 × Archer, 4 × Healer, 2 × Wall Breaker, 5 × Minion, 1 × Barbarian King, 7 × Dragon, 2 × Balloon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 329989 Gold, 375303 Elixir, 456 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-30 15:21:21</td>
+            <td>2 min 30 s</td>
+            <td>BADSHAH KING</td>
+            <td>60 %</td>
+            <td>1</td>
+            <td>-20</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 5 × Healer, 1 × Balloon, 6 × Wall Breaker, 1 × Baby Dragon, 2 × Wizard, 10 × Hog Rider, 14 × Miner, 1 × Archer</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 118860 Gold, 253572 Elixir, 3124 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-30 01:46:44</td>
+            <td>2 min 36 s</td>
+            <td>vande rama</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-23</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 10 × Dragon, 5 × Balloon, 1 × Barbarian King, 1 × Archer Queen, 3 × Wizard, 3 × Goblin</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 443810 Gold, 472212 Elixir, 4099 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-29 18:19:21</td>
+            <td>1 min 58 s</td>
+            <td>DecorusReliance</td>
+            <td>42 %</td>
+            <td>1</td>
+            <td>&#43;25</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 40 × Miner</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 110715 Gold, 68062 Elixir, 3447 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-29 04:30:14</td>
+            <td>1 min 38 s</td>
+            <td>Playboi.Tony</td>
+            <td>45 %</td>
+            <td>1</td>
+            <td>&#43;27</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 8 × Dragon, 1 × Barbarian King, 11 × Balloon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 125674 Gold, 150560 Elixir, 519 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-28 07:11:08</td>
+            <td>2 min 19 s</td>
+            <td>RHS03</td>
+            <td>67 %</td>
+            <td>2</td>
+            <td>-13</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Dragon, 1 × Archer Queen, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 131116 Gold, 350315 Elixir, 1984 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:53:47</td>
+            <td>1 min 35 s</td>
+            <td>RAGNAR</td>
+            <td>46 %</td>
+            <td>1</td>
+            <td>-6</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 3 × Balloon, 11 × Dragon, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 28937 Gold, 183828 Elixir, 1293 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 13:19:17</td>
+            <td>0 s</td>
+            <td>Predator_23</td>
+            <td>0 %</td>
+            <td>0</td>
+            <td>&#43;25</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: </td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 10:38:28</td>
+            <td>1 min 38 s</td>
+            <td>ikarbur2807</td>
+            <td>53 %</td>
+            <td>1</td>
+            <td>-8</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 3 × Archer, 5 × P.E.K.K.A, 2 × Wall Breaker, 15 × Wizard, 2 × Healer, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 128964 Gold, 158777 Elixir, 1834 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 21:24:35</td>
+            <td>2 min 59 s</td>
+            <td>Batata</td>
+            <td>66 %</td>
+            <td>2</td>
+            <td>-10</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 5 × P.E.K.K.A, 13 × Valkyrie, 1 × Barbarian King, 1 × Archer Queen, 1 × Grand Warden, 1 × Wizard, 3 × Archer, 2 × Minion</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 14421 Gold, 5236 Elixir, 339 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 11:34:56</td>
+            <td>1 min 34 s</td>
+            <td>RealoxYT</td>
+            <td>50 %</td>
+            <td>1</td>
+            <td>-9</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 3 × Golem, 9 × Witch, 1 × Barbarian King, 1 × Archer Queen, 8 × Minion</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 27939 Gold, 25412 Elixir, 203 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-23 15:04:05</td>
+            <td>1 min 55 s</td>
+            <td>GHOST2.0</td>
+            <td>68 %</td>
+            <td>2</td>
+            <td>-14</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × P.E.K.K.A, 1 × Wizard, 6 × Wall Breaker, 21 × Valkyrie, 1 × Barbarian King, 1 × Archer</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 70900 Gold, 94680 Elixir, 1259 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-23 15:00:40</td>
+            <td>1 s</td>
+            <td>@SHOGUNFANS</td>
+            <td>0 %</td>
+            <td>0</td>
+            <td>&#43;18</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: </td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-22 11:43:13</td>
+            <td>1 min 16 s</td>
+            <td>Roronoa D Zoro</td>
+            <td>33 %</td>
+            <td>1</td>
+            <td>-6</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 3 × Dragon, 21 × Wizard, 1 × Barbarian King, 3 × P.E.K.K.A, 1 × Archer</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 22740 Gold, 26953 Elixir, 299 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-19 12:30:48</td>
+            <td>1 min 45 s</td>
+            <td>shameless eboy</td>
+            <td>73 %</td>
+            <td>2</td>
+            <td>-17</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Giant, 10 × Witch, 10 × Bowler, 1 × Barbarian King, 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 59076 Gold, 71152 Elixir, 1252 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-15 13:58:19</td>
+            <td>1 min 34 s</td>
+            <td>afriyanto</td>
+            <td>52 %</td>
+            <td>1</td>
+            <td>-7</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 9 × Dragon, 12 × Balloon, 1 × Archer Queen, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 29026 Gold, 28390 Elixir, 147 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-12 20:56:30</td>
+            <td>6 s</td>
+            <td>Mostafa James</td>
+            <td>2 %</td>
+            <td>0</td>
+            <td>&#43;27</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 9077 Gold, 3832 Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-11 10:32:05</td>
+            <td>2 min 17 s</td>
+            <td>joblar</td>
+            <td>69 %</td>
+            <td>2</td>
+            <td>-9</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 1 × Barbarian King, 3 × Healer, 1 × Wizard, 13 × Valkyrie, 10 × Hog Rider, 2 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 325058 Gold, 274710 Elixir, 5400 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-10 17:34:57</td>
+            <td>1 min 36 s</td>
+            <td>gabstuh11</td>
+            <td>35 %</td>
+            <td>1</td>
+            <td>-7</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Barbarian King, 1 × Archer Queen, 6 × P.E.K.K.A, 3 × Healer, 3 × Goblin, 5 × Hog Rider, 1 × Grand Warden</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 45646 Gold, 41610 Elixir, 776 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-06 17:46:52</td>
+            <td>1 min 8 s</td>
+            <td>مختار</td>
+            <td>46 %</td>
+            <td>1</td>
+            <td>-9</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Dragon, 1 × Grand Warden, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 31985 Gold, 45100 Elixir, 398 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-04 23:14:29</td>
+            <td>2 min 59 s</td>
+            <td>capitão América</td>
+            <td>66 %</td>
+            <td>2</td>
+            <td>-9</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 5 × Healer, 1 × Archer Queen, 12 × Witch, 1 × Grand Warden, 1 × Barbarian King, 6 × Archer</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 112999 Gold, 121481 Elixir, 878 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-31 13:23:47</td>
+            <td>2 min 59 s</td>
+            <td>BetaTester2412</td>
+            <td>91 %</td>
+            <td>2</td>
+            <td>-14</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 22 × Archer, 2 × P.E.K.K.A, 1 × Barbarian King, 1 × Archer Queen, 2 × Hog Rider, 22 × Barbarian, 2 × Witch, 5 × Giant, 5 × Balloon, 1 × Baby Dragon, 2 × Healer, 4 × Wizard, 2 × Goblin, 3 × Wall Breaker</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 270777 Gold, 349251 Elixir, 1577 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-30 13:44:58</td>
+            <td>1 min 26 s</td>
+            <td>ate alley</td>
+            <td>75 %</td>
+            <td>2</td>
+            <td>-5</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Archer Queen, 12 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 137884 Gold, 319758 Elixir, 575 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-30 03:42:29</td>
+            <td>4 s</td>
+            <td>JulioFTG13</td>
+            <td>2 %</td>
+            <td>0</td>
+            <td>&#43;24</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Grand Warden</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: </td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-27 19:26:03</td>
+            <td>2 min 17 s</td>
+            <td>Monster</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-32</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Lava Hound, 10 × Balloon, 6 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 176138 Gold, 543491 Elixir, 2776 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-26 15:37:45</td>
+            <td>47 s</td>
+            <td>Anni</td>
+            <td>17 %</td>
+            <td>0</td>
+            <td>&#43;17</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 206 × Goblin</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 125027 Gold, 155172 Elixir, 656 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-25 18:13:46</td>
+            <td>1 min 43 s</td>
+            <td>とらんくるーむ</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-17</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 9 × Dragon, 1 × Barbarian King, 1 × Archer Queen, 12 × Balloon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 486438 Gold, 464148 Elixir, 2004 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-25 16:37:47</td>
+            <td>53 s</td>
+            <td>Niklas</td>
+            <td>16 %</td>
+            <td>0</td>
+            <td>&#43;22</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 81 × Goblin</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 58443 Gold, 50094 Elixir, 60 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-19 13:24:15</td>
+            <td>48 s</td>
+            <td>lWavyxAcel</td>
+            <td>35 %</td>
+            <td>1</td>
+            <td>&#43;30</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 10 × Dragon, 1 × Archer Queen, 1 × Barbarian King, 5 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 108247 Gold, 219970 Elixir, 441 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-18 00:43:13</td>
+            <td>2 min 5 s</td>
+            <td>Phoenix</td>
+            <td>80 %</td>
+            <td>2</td>
+            <td>-16</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Dragon, 1 × Archer Queen, 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 407098 Gold, 426752 Elixir, 2066 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-17 06:19:41</td>
+            <td>2 min 2 s</td>
+            <td>Oscarito0242</td>
+            <td>69 %</td>
+            <td>2</td>
+            <td>-11</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 3 × Golem, 9 × Witch, 2 × Wizard, 4 × Archer, 1 × Barbarian King, 1 × Archer Queen, 5 × Bowler</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 269902 Gold, 447983 Elixir, 1105 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-16 13:14:49</td>
+            <td>1 min 54 s</td>
+            <td>Саманта</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-15</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Dragon, 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 447668 Gold, 502018 Elixir, 1613 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-15 19:56:53</td>
+            <td>1 min 56 s</td>
+            <td>mohammad &#43;</td>
+            <td>82 %</td>
+            <td>2</td>
+            <td>-12</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Barbarian King, 12 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 664024 Gold, 919522 Elixir, 5161 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-15 01:14:20</td>
+            <td>2 min 26 s</td>
+            <td>PRABIN×</td>
+            <td>84 %</td>
+            <td>2</td>
+            <td>-17</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Golem, 1 × Barbarian King, 1 × Archer Queen, 13 × Wizard, 6 × Wall Breaker, 13 × Valkyrie, 6 × Minion</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 747075 Gold, 796015 Elixir, 7026 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-14 08:36:20</td>
+            <td>1 min 50 s</td>
+            <td>MENIYA VISHAL</td>
+            <td>66 %</td>
+            <td>2</td>
+            <td>-6</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 12 × Dragon</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 556388 Gold, 490722 Elixir, 3600 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-13 18:25:17</td>
+            <td>1 min 47 s</td>
+            <td>romio</td>
+            <td>34 %</td>
+            <td>1</td>
+            <td>-6</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Archer, 1 × Barbarian King, 4 × Bowler, 1 × Golem, 16 × Wizard, 15 × Valkyrie</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 96464 Gold, 450225 Elixir, 1106 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-13 05:06:13</td>
+            <td>1 min 9 s</td>
+            <td>™prince mateo2</td>
+            <td>55 %</td>
+            <td>1</td>
+            <td>-11</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 40 × Miner, 1 × Archer Queen</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 319001 Gold, 415197 Elixir, 4371 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-12 12:31:35</td>
+            <td>2 min 18 s</td>
+            <td>Destroyer 25</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-25</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 18 × Giant, 3 × P.E.K.K.A, 1 × Barbarian King, 1 × Archer Queen, 1 × Grand Warden, 11 × Archer, 16 × Wizard</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 272558 Gold, 377643 Elixir, 2262 Dark Elixir</td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-10 13:23:21</td>
+            <td>1 s</td>
+            <td>Gean</td>
+            <td>0 %</td>
+            <td>0</td>
+            <td>&#43;28</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 1 × Barbarian King</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: </td>
+        </tr>
+        
+        <tr>
+            <td>2022-05-03 11:28:25</td>
+            <td>1 min 26 s</td>
+            <td>はるぽんた</td>
+            <td>100 %</td>
+            <td>3</td>
+            <td>-27</td>
+        </tr>
+        <tr>
+            <td colspan="6">Troops deployed: 2 × Balloon, 1 × Barbarian King, 8 × Electro Dragon, 1 × Grand Warden</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Loot: 72808 Gold, 67609 Elixir, 1674 Dark Elixir</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+<h3>Handsets and devices</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Last seen (UTC time)</th>
+            <th>Device Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:42:33</td>
+            <td>5EE8A61A-2C56-42FC-9885-34CF94B51E59</td>
+            <td>iPhone 12</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 09:19:48</td>
+            <td>746B2674-7E32-4A67-865F-45A9F959BE78</td>
+            <td>iPad air 4th Gen (WiFi)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2020-05-29 18:52:30</td>
+            <td>147B442B-1385-4193-8962-813971DBE448</td>
+            <td>iPhone 6s</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+<h3>Purchases</h3>
+
+<p>You have made <b>2</b> total purchases (0 cancelled, 0 refunded) worth <b>USD 9.98</b>.</p>
+<br/>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp (UTC)</th>
+            <th>Store</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:16:39</td>
+            <td>Apple</td>
+            <td>Offer</td>
+            <td>4.99 EUR</td>
+            <td>Charged</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-01 10:59:14</td>
+            <td>Apple</td>
+            <td>Offer</td>
+            <td>4.99 EUR</td>
+            <td>Charged</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+<br/>
+
+        
+        
+<h2>Clash Royale</h2>
+
+
+<p>Your name is <b>chaos</b>.</p>
+<p>Your account was created on <b>2017-10-18 14:18:48</b> in <b>Brazil</b> (169.57.142.107).</p>
+<p>Your account is <b>not banned</b> and <b>not locked</b>.</p>
+
+<p>You last logged in on <b>2022-07-01 13:44:16</b> from <b>Luxembourg</b> (158.64.86.51).</p>
+
+<p>You have played <b>1245</b> sessions in total.</p>
+
+
+<p>You are not a member of any clan.</p>
+
+
+
+
+
+<h3>Resources and progress</h3>
+<p>You have <b>425</b> gems.</p>
+<p>You have <b>5160</b> trophies and your arena is <b>Legendary Arena</b>.</p>
+<p>Resources: <b>150</b> gold and trade tokens: <b>0</b> Common, <b>0</b> Rare, <b>2</b> Epic and <b>0</b> Legendary.</p>
+
+
+
+
+
+
+
+
+
+
+<h3>Connected social accounts</h3>
+
+
+<p>GameCenter: G:10914933984</p>
+
+
+
+
+
+<h3>Sessions</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Session start</th>
+            <th>Duration</th>
+            <th>IP</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:44:16</td>
+            <td>1 min 22 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 07:59:49</td>
+            <td>3 min 14 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 10:20:17</td>
+            <td>51 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 17:32:50</td>
+            <td>3 min 31 s</td>
+            <td>178.254.110.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 19:40:42</td>
+            <td>4 min 26 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 19:04:46</td>
+            <td>5 min 18 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 17:57:11</td>
+            <td>1 min 9 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 17:16:18</td>
+            <td>13 min 9 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-27 17:01:20</td>
+            <td>8 min 8 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-26 20:19:48</td>
+            <td>7 min 56 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 21:05:23</td>
+            <td>4 min 8 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 15:51:24</td>
+            <td>41 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 14:16:28</td>
+            <td>8 s</td>
+            <td>146.0.216.154</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 13:56:30</td>
+            <td>4 min 8 s</td>
+            <td>146.0.216.154</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 07:49:13</td>
+            <td>5 min 22 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 18:17:44</td>
+            <td>42 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 18:17:33</td>
+            <td>6 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 17:42:54</td>
+            <td>8 min 9 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 17:23:36</td>
+            <td>37 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 17:22:58</td>
+            <td>11 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-23 16:09:50</td>
+            <td>1 min 5 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-23 09:01:10</td>
+            <td>3 min 23 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 18:07:50</td>
+            <td>17 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 19:48:48</td>
+            <td>32 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 05:04:45</td>
+            <td>1 min 20 s</td>
+            <td>146.0.216.68</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-19 20:17:09</td>
+            <td>45 s</td>
+            <td>83.99.50.174</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-19 17:11:20</td>
+            <td>1 min 11 s</td>
+            <td>146.0.216.68</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-19 12:41:33</td>
+            <td>2 min 18 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-19 12:35:57</td>
+            <td>3 min 27 s</td>
+            <td>78.141.167.134</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 20:42:36</td>
+            <td>18 min 3 s</td>
+            <td>83.99.48.99</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 17:33:25</td>
+            <td>4 min 37 s</td>
+            <td>83.99.48.99</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 12:44:24</td>
+            <td>1 min 13 s</td>
+            <td>146.0.216.33</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 12:29:21</td>
+            <td>3 min 41 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-14 16:44:25</td>
+            <td>20 min 47 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-12 19:33:40</td>
+            <td>5 min 33 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-12 08:52:34</td>
+            <td>5 min 27 s</td>
+            <td>146.0.216.126</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-11 08:32:16</td>
+            <td>11 min 54 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-10 10:58:03</td>
+            <td>1 min 25 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-10 05:01:16</td>
+            <td>1 min 22 s</td>
+            <td>146.0.216.189</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 18:56:42</td>
+            <td>8 min 24 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 14:36:31</td>
+            <td>3 min 28 s</td>
+            <td>146.0.216.189</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-08 12:28:40</td>
+            <td>22 min 19 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-08 08:44:06</td>
+            <td>14 min 13 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-08 06:36:30</td>
+            <td>12 min 13 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-07 13:04:20</td>
+            <td>2 min 21 s</td>
+            <td>83.99.50.239</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-06 09:11:50</td>
+            <td>10 min 51 s</td>
+            <td>146.0.216.175</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 16:37:18</td>
+            <td>3 min 12 s</td>
+            <td>146.0.216.175</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-05 11:24:07</td>
+            <td>28 s</td>
+            <td>146.0.216.175</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-04 06:43:06</td>
+            <td>11 min 30 s</td>
+            <td>146.0.216.153</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-04 06:39:50</td>
+            <td>1 min 44 s</td>
+            <td>146.0.216.186</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<h3>Battles</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Mode</th>
+            <th>Opponent</th>
+            <th>Trophies</th>
+            <th>Crowns</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>2022-06-28 17:36:12</td>
+            <td>PvP</td>
+            <td>dejame ganar</td>
+            <td>-24</td>
+            <td>0 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 19:44:21</td>
+            <td>PvP</td>
+            <td>Noon</td>
+            <td>30</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 19:08:03</td>
+            <td>PvP</td>
+            <td>Maxime.shb</td>
+            <td>30</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:28:34</td>
+            <td>PvP</td>
+            <td>sacka</td>
+            <td>28</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:24:40</td>
+            <td>Challenge</td>
+            <td>кикало.</td>
+            <td>0</td>
+            <td>2 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:20:09</td>
+            <td>Challenge</td>
+            <td>Armamdestroyer</td>
+            <td>0</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:09:54</td>
+            <td>Challenge</td>
+            <td>SPOOKYDASCARY</td>
+            <td>0</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-27 17:06:15</td>
+            <td>PvP</td>
+            <td>GALAXY</td>
+            <td>-23</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 20:27:14</td>
+            <td>PvP</td>
+            <td>Z26</td>
+            <td>-23</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-26 20:23:14</td>
+            <td>PvP</td>
+            <td>breiner</td>
+            <td>30</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 21:08:36</td>
+            <td>PvP</td>
+            <td>tadej_n</td>
+            <td>-24</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 13:59:42</td>
+            <td>PvP</td>
+            <td>Miguel</td>
+            <td>-24</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-25 07:53:30</td>
+            <td>PvP</td>
+            <td>GuilhermeJansen</td>
+            <td>31</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 17:50:59</td>
+            <td>PvP</td>
+            <td>tony craft</td>
+            <td>-23</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 17:47:44</td>
+            <td>PvP</td>
+            <td>alco05</td>
+            <td>29</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-24 17:45:58</td>
+            <td>PvP</td>
+            <td>Rodolfo</td>
+            <td>31</td>
+            <td>3 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-23 09:04:29</td>
+            <td>PvP</td>
+            <td>mao</td>
+            <td>-24</td>
+            <td>0 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-19 12:44:07</td>
+            <td>Challenge</td>
+            <td>Everichy</td>
+            <td>0</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 20:59:52</td>
+            <td>PvP</td>
+            <td>kahealani</td>
+            <td>-24</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 20:56:38</td>
+            <td>PvP</td>
+            <td>elkerchack</td>
+            <td>30</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 20:52:29</td>
+            <td>PvP</td>
+            <td>Xx sOy gHoSt xX</td>
+            <td>29</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 20:47:23</td>
+            <td>PvP</td>
+            <td>Master creepy</td>
+            <td>30</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 20:44:09</td>
+            <td>PvP</td>
+            <td>Kakashi</td>
+            <td>30</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-17 17:38:33</td>
+            <td>Challenge</td>
+            <td>Reki_2006</td>
+            <td>0</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-15 12:33:01</td>
+            <td>PvP</td>
+            <td>Antônio ivo</td>
+            <td>-24</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 17:04:48</td>
+            <td>Challenge</td>
+            <td>Vegeta</td>
+            <td>0</td>
+            <td>0 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 17:01:35</td>
+            <td>Challenge</td>
+            <td>deadgame</td>
+            <td>0</td>
+            <td>3 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 16:58:20</td>
+            <td>Challenge</td>
+            <td>قوس النصر</td>
+            <td>0</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 16:55:06</td>
+            <td>Challenge</td>
+            <td>beepbzzzzz</td>
+            <td>0</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Skeleton Dragons</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 16:51:16</td>
+            <td>Challenge</td>
+            <td>timeo</td>
+            <td>0</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Skeleton King, Wall Breakers, Mirror, Skeleton Army, Clone, The Log, Guards, Giant Skeleton</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-14 16:47:19</td>
+            <td>PvP</td>
+            <td>Carter</td>
+            <td>31</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-12 19:37:19</td>
+            <td>PvP</td>
+            <td>THEKING_RINA</td>
+            <td>-23</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-12 08:57:51</td>
+            <td>PvP</td>
+            <td>mehedi</td>
+            <td>29</td>
+            <td>2 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-11 08:43:04</td>
+            <td>PvP</td>
+            <td>titi</td>
+            <td>-24</td>
+            <td>1 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-11 08:39:09</td>
+            <td>PvP</td>
+            <td>soroush</td>
+            <td>-23</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-11 08:34:10</td>
+            <td>PvP</td>
+            <td>Deadsky</td>
+            <td>30</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-09 19:04:54</td>
+            <td>PvP</td>
+            <td>❄️UltraFreeZz❄️</td>
+            <td>-24</td>
+            <td>1 - 2</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-09 19:00:18</td>
+            <td>PvP</td>
+            <td>ni un brill0</td>
+            <td>29</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-09 14:39:02</td>
+            <td>PvP</td>
+            <td>isan</td>
+            <td>-24</td>
+            <td>1 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:50:17</td>
+            <td>PvP</td>
+            <td>nickmariani33</td>
+            <td>-23</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:46:30</td>
+            <td>PvP</td>
+            <td>狗頭人柏宇哥</td>
+            <td>29</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:44:21</td>
+            <td>PvP</td>
+            <td>T GAYシ</td>
+            <td>29</td>
+            <td>3 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:42:16</td>
+            <td>PvP</td>
+            <td>SUPERCELL</td>
+            <td>-21</td>
+            <td>2 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:37:35</td>
+            <td>PvP</td>
+            <td>KEVIN</td>
+            <td>30</td>
+            <td>1 - 0</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:34:22</td>
+            <td>PvP</td>
+            <td>Sayko</td>
+            <td>-11</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Clone, Wall Breakers, Skeleton Army, The Log, Electro Wizard, Bats, Fire Spirit, Mega Knight</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 12:30:00</td>
+            <td>PvP</td>
+            <td>carleesserraa</td>
+            <td>-24</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Goblin Barrel, Magic Archer, Lumberjack, Knight, Inferno Dragon, The Log, Princess, Hog Rider</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 08:55:25</td>
+            <td>PvP</td>
+            <td>Mandyy31</td>
+            <td>-23</td>
+            <td>0 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 08:53:38</td>
+            <td>PvP</td>
+            <td>Schlap</td>
+            <td>-24</td>
+            <td>2 - 3</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 08:50:30</td>
+            <td>PvP</td>
+            <td>Michael jackson</td>
+            <td>-23</td>
+            <td>0 - 1</td>
+            <td>Defeat</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+        <tr>
+            <td>2022-06-08 08:46:36</td>
+            <td>PvP</td>
+            <td>Vicent</td>
+            <td>29</td>
+            <td>3 - 1</td>
+            <td>Victory</td>
+        </tr>
+        <tr class="border-bottom">
+            <td colspan="6">Deck: Bandit, Wall Breakers, The Log, Mega Knight, Fire Spirit, Electro Wizard, Skeleton Army, Arrows</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<h3>Handsets and devices</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Last seen (UTC time)</th>
+            <th>Device Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 13:44:16</td>
+            <td>5EE8A61A-2C56-42FC-9885-34CF94B51E59</td>
+            <td>iPhone 12</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-05-20 09:15:43</td>
+            <td>746B2674-7E32-4A67-865F-45A9F959BE78</td>
+            <td>iPad air 4th Gen (WiFi)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>1BBA1075-5BBD-403C-BEDA-CA255FFACFE2</td>
+            <td>iPhone 5s (Global)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>B630A201-1A51-464B-B88E-3B6B5BF5E0E2</td>
+            <td>iPhone 5s (Global)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>Over 2 years ago</td>
+            <td>Unknown</td>
+            <td>iPhone 5s (Global)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2021-12-18 18:21:48</td>
+            <td>5E4DF989-5D4D-4F1E-8D18-BECA152D0DB1</td>
+            <td>iPhone XS</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2021-03-30 05:14:57</td>
+            <td>988916FD-5875-494E-9323-33A509F3C594</td>
+            <td>iPhone 7 Plus (no CDMA)</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<br/>
+
+        
+        
+<h2>Hay Day</h2>
+
+
+<p>Your name is <b>ceo of onlyfans</b>.</p>
+<p>Your farm was created on <b>2020-04-03 17:40:36</b> in <b>Luxembourg</b> (146.0.142.33).</p>
+<p>Your account is <b>not banned</b> and <b>not locked</b>.</p>
+
+<p>You have played <b>721</b> sessions in total.</p>
+
+
+<p>You are a member of a neighborhood called <b>the httyd enthusiasts</b>. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Resources and progress</h3>
+<p>You have <b>37</b> gems.</p>
+<p>You have reputation level <b>2</b> and <b>12820</b> experience points. Your experience level is <b>35</b>.</p>
+<p>Resources: <b>47776</b> coins and vouchers: <b>23</b> Blue, <b>8</b> Green, <b>5</b> Purple and <b>13</b> Gold.</p>
+<p>Your Valley resources: <b>0</b> fuel, <b>0</b> chickens, <b>0</b> sanctuary animals, <b>0</b> sun points and vouchers: <b>0</b> Blue, <b>0</b> Green, <b>0</b> Red.</p>
+
+
+
+
+
+
+
+
+
+<h3>Sessions</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Session start</th>
+            <th>Duration</th>
+            <th>IP</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:09:22</td>
+            <td>44 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 07:36:25</td>
+            <td>4 min 28 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-30 06:55:08</td>
+            <td>5 min 53 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-29 06:49:34</td>
+            <td>6 min 30 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-28 07:22:06</td>
+            <td>10 min 33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-25 08:54:36</td>
+            <td>13 min 25 s</td>
+            <td>83.99.48.191</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-24 08:17:20</td>
+            <td>2 min 25 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 07:29:42</td>
+            <td>4 min 34 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 07:21:59</td>
+            <td>3 min 21 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 07:17:59</td>
+            <td>3 min 4 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 07:07:47</td>
+            <td>4 min 43 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-22 06:56:28</td>
+            <td>5 min 1 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-21 07:11:44</td>
+            <td>6 min 19 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 07:18:58</td>
+            <td>4 min 1 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-20 06:17:23</td>
+            <td>10 min 51 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 13:00:06</td>
+            <td>4 min 55 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 12:57:36</td>
+            <td>1 min 54 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-17 08:24:31</td>
+            <td>2 min 45 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 14:17:19</td>
+            <td>1 min 33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 06:18:59</td>
+            <td>4 min 57 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 06:17:56</td>
+            <td>41 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-16 06:13:47</td>
+            <td>2 min 33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 06:42:56</td>
+            <td>4 min 31 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 06:35:23</td>
+            <td>3 min 53 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 06:28:22</td>
+            <td>2 min 31 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-15 06:27:32</td>
+            <td>23 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-11 11:00:56</td>
+            <td>7 min 7 s</td>
+            <td>83.99.51.4</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-10 14:58:07</td>
+            <td>27 s</td>
+            <td>213.135.241.217</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-10 14:08:48</td>
+            <td>3 min 33 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 09:06:03</td>
+            <td>6 min 35 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 08:14:49</td>
+            <td>3 min 43 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 07:18:42</td>
+            <td>2 min 6 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 07:05:32</td>
+            <td>10 min 42 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-06-09 07:00:27</td>
+            <td>2 min 58 s</td>
+            <td>158.64.86.51</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-04-14 16:34:49</td>
+            <td>9 min 17 s</td>
+            <td>83.99.50.55</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-04-14 16:02:01</td>
+            <td>20 min 40 s</td>
+            <td>83.99.50.55</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2022-04-14 16:01:58</td>
+            <td>0 s</td>
+            <td>83.99.50.55</td>
+            <td>Luxembourg</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Handsets and devices</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Last seen (UTC time)</th>
+            <th>Device Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr class="border-bottom">
+            <td>2022-07-01 08:09:22</td>
+            <td>746B2674-7E32-4A67-865F-45A9F959BE78</td>
+            <td>iPad air 4th Gen (WiFi)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2021-05-13 18:37:19</td>
+            <td>5E4DF989-5D4D-4F1E-8D18-BECA152D0DB1</td>
+            <td>iPhone XS</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2020-09-03 11:51:22</td>
+            <td>988916FD-5875-494E-9323-33A509F3C594</td>
+            <td>iPhone 7 Plus (no CDMA)</td>
+        </tr>
+        
+        <tr class="border-bottom">
+            <td>2021-04-07 11:44:04</td>
+            <td>Unknown</td>
+            <td>iPad air 4th Gen (WiFi)</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+<br/>
+
+        
+    </div>
+
+    <footer class="main">
+      <div class="footer-end solo">
+        <div class="mail">
+          <address>
+            <span>Supercell Oy</span>
+            <span>Jätkäsaarenlaituri 1</span>
+            <span>00180 Helsinki</span>
+            <span>Finland</span>
+          </address>
+        </div>
+        <div class="logo">
+          <a href="https://supercell.com/en/" target="_blank" title="Front page">Supercell</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
